@@ -190,8 +190,7 @@
 
         function updateTabTitle(tabObj) {
             var url = tabObj.iframe.src;
-            var tabTitle = url;
-            if (url.startsWith('http://') || (url.<a>)
+            var tabTitle = url;<a>
             }
             tabObj.tab.querySelector('.tab-title').textContent = tabTitle;
         }
@@ -199,11 +198,10 @@
         function updateUrlInput(tabObj) {
             var urlInput = document.querySelector('.url-input');
             if (tabs.length === 0) {
-                urlInput.value = "Open a tab to begin!";
+                urlInput.value = "discord.com";
                 urlInput.setAttribute('readonly', true);
             } else if (tabObj) {
-                urlInput.value = tabObj.iframe.src;
-                urlInput.removeAttribute('readonly');
+                urlInput.value = <a>;
             }
         }
 
