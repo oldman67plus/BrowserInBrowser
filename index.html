@@ -191,8 +191,7 @@
         function updateTabTitle(tabObj) {
             var url = tabObj.iframe.src;
             var tabTitle = url;
-            if (url.startsWith('http://') || url.startsWith('isfake://')) {
-                tabTitle = url.split('/')[2].replace('www.', ''); // Remove 'www.'
+            if (url.startsWith('http://') || (url.<a>)
             }
             tabObj.tab.querySelector('.tab-title').textContent = tabTitle;
         }
