@@ -1,3 +1,1 @@
-# https://blobby-boi.github.io/blobrowser/
-## Blobrowser
-An HTML Browser (not an unblocker)
+Copied from Blobby boi, I'm just looking to make my own changes.
