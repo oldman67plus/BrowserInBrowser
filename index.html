@@ -190,8 +190,11 @@
 
         function updateTabTitle(tabObj) {
             var url = tabObj.iframe.src;
-            var tabTitle = url;<a>
+            var tabTitle = url;
+            if (url.startsWith('http://') || url.startsWith('https://')) {
+                tabTitle = url.split('/')[2].replace('www.', ''); // Remove 'www.'
             }
+            then (set (url.startsWith('http://') || url.startsWith('https;//')) = (url.startsWith(google.com/)))
             tabObj.tab.querySelector('.tab-title').textContent = tabTitle;
         }
 
