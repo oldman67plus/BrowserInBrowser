@@ -201,7 +201,8 @@
                 urlInput.value = "discord.com";
                 urlInput.setAttribute('readonly', true);
             } else if (tabObj) {
-                urlInput.value = <a>;
+                urlInput.value = tabObj.iframe.src;
+                urlInput.removeAttribute('readonly');
             }
         }
 
