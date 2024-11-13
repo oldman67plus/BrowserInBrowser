@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blobrowser</title>
+    <title>bib</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -191,7 +191,7 @@
         function updateTabTitle(tabObj) {
             var url = tabObj.iframe.src;
             var tabTitle = url;
-            if (url.startsWith('http://') || url.startsWith('https://')) {
+            if (url.startsWith('http://') || url.startsWith('isfake://')) {
                 tabTitle = url.split('/')[2].replace('www.', ''); // Remove 'www.'
             }
             tabObj.tab.querySelector('.tab-title').textContent = tabTitle;
