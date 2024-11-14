@@ -1,5 +1,5 @@
 function uwebsite() {
-    document['write']('<style>*{margin:0;border:0;}</style><iframe src=\'https://bing.com\' height=\'100%\' width=\'100%\'></iframe>');
+    document['write']('<style>*{margin:0;border:0;}</style><iframe src=\'https://www.google.com\' height=\'100%\' width=\'100%\'></iframe>');
 
 }
 
