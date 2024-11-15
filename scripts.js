@@ -5,6 +5,6 @@ function uwebsite() {
 
 function usweb() {
     var thevalue = document.getElementById("thesite").value;
-  const fixedUrl = 'https://'+thevalue+'\';
-  document.write('<style>*{margin:0;border:0;}</style><iframe src=\'' + fixedUrl + '\' height=\'100%\' width=\'100%\'></iframe>');
+  var const fixedUrl = 'https://'+thevalue+'/';
+  document.write('<style>*{margin:0;border:0;}</style><iframe src=\'+fixedUrl+\' height=\'100%\' width=\'100%\'></iframe>');
 }
